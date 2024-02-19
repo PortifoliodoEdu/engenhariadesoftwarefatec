@@ -3,7 +3,11 @@ atividade da aula 19/02/23 - Prof Juliano - 1º Aula do semestre - 2º semestre
 
 # Texto da url: https://dontpad.com/engenhariadesoftwarefatec
 
+<<<<<<< HEAD
 # "Withain Google, we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software : engineering after all, programming is how you generate new software in the first place. If you accept this distinction, it also becomes clear that we might need to delineate between programming tasks (development) and software engineering tasks (development, modification, mmimaintenance). The addition of time adds an important new dimension to programming. Cubes aren’t squares, distance isn’t velocity. Software engineering isn’t prograng.  "
+=======
+#"Withain Google, we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software : engineering after all, programming is how you generate new software in the first place. If you accept this distinction, it also becomes clear that we might need to delineate between programming tasks (development) and software engineering tasks (development, modification, mmimaintenance). The addition of time adds an important new dimension to programming. Cubes aren’t squares, distance isn’t velocity. Software engineering isn’t prograng.  "
+>>>>>>> 644406b3592be85a18a134f4b58192c003d191d0
 
 #"We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth."
 
@@ -27,6 +31,7 @@ A programação é certamente uma parte importante da engenharia de software: af
 #O que consegui compreender do texto é que a engenharia de software é sim baseada em programação mas não se limita a isso, é uma métodologia, ou melhor, um conjunto de formas de pensar que aplicadas a programação garantem que grandes organizações possam tomar decisões assertivas e de longo prazo, 
 
 RESPOSTA DO PROFESSOR: ENG.SOFTWARE = PROGRAMAÇÃO + TRADE OFFICE + ESCALA + TEMPO
+<<<<<<< HEAD
 -> TEMPO: Mudanças do cliente referente a requisitos, porém o mais importante em relação a tempo é que o código em si pode piorar ao longo do tempo, você percebe as falhas, as vezes é bem mais fácil começar do zero, principalmente se você fez péssimas decisões anteriormente.
 
 -> ESCALA: Escalar é expandir, escalar um sistema é dificil, 
@@ -50,6 +55,9 @@ Faculdade pe relevante para conseguir vagas mais disputadas ou de outro nivel.
 
  --- https://duckdb.org/ (Antes tinha um pedaço no site escrito 'Onde não usar', é um exemplo que em toda tecnologia tem locais que você tem de ter em mente onde não usar, nenhuma ferramenta é aplicada em todas as situações)
 
+=======
+-> TEMPO: Mudanças do cliente referente a requisitos, porém o mais importante em relação a tempo é que o código em si pode piorar ao longo do tempo.
+>>>>>>> 644406b3592be85a18a134f4b58192c003d191d0
 
 ->História: Startup inicia, 
 Softwares são jogados fora o tempo todo em todas as empresas;
@@ -58,7 +66,10 @@ Muitas das técnologias aplicadas nos softwares que vemos nas empresas só são 
 
 Background Fatec: Giuliano deu sua primeira aula na Fatec em banco de dados;
 Background Fatec: Banco de dados se chamava Banco de dados e redes, porém como tinha pouca demanda de alunos para redes, ficou só banco
+<<<<<<< HEAD
 
 
 Ruby é uma linguagem de programação muito lenta.
 
+=======
+>>>>>>> 644406b3592be85a18a134f4b58192c003d191d0
