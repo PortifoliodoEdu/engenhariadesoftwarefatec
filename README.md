@@ -43,4 +43,44 @@ Faculdade pode ser relevante para conseguir vagas mais disputadas ou de outro n�
 --- https://duckdb.org/ (Antes tinha um pedaço no site escrito 'Onde não usar', é um exemplo que em toda tecnologia tem locais que você tem de ter em mente onde não usar, nenhuma ferramenta é aplicada em todas as situações)
 
 Ruby é uma linguagem de programação muito lenta.
-```
+
+----------------
+
+Atividade 3:
+Vamos associar cada arquitetura a um sistema específico para ilustrar melhor os requisitos não funcionais escolhidos. 
+
+1. **Layered Architecture Style:**
+   - *Bom Requisito Não Funcional:* Simplicidade
+     - *Explicação:* Uma camada de arquitetura é adicionada por vez, facilitando a compreensão e manutenção do sistema. Isso é adequado para sistemas temporários ou paliativos que serão substituídos.
+   - *Mau Requisito Não Funcional:* Desempenho
+     - *Explicação:* A abordagem em camadas pode adicionar complexidade e impactar o desempenho, especialmente se muitas camadas forem empilhadas.
+
+2. **Pipeline Architecture Style:**
+   - *Bom Requisito Não Funcional:* Evolucionário
+     - *Explicação:* A arquitetura de pipeline permite modificações e melhorias graduais no sistema ao longo do tempo para atender a novas necessidades.
+   - *Mau Requisito Não Funcional:* Escalabilidade
+     - *Explicação:* Embora seja confiável, a arquitetura de pipeline pode não ser facilmente escalável para acomodar um grande número de usuários.
+
+3. **Microkernel Architecture Style:**
+   - *Bom Requisito Não Funcional:* Implementabilidade
+     - *Explicação:* Esta arquitetura é fácil de implementar, adequada para projetos com tempo e recursos limitados.
+   - *Mau Requisito Não Funcional:* Escalabilidade
+     - *Explicação:* Apresenta péssima escalabilidade, não sendo ideal para sistemas que planejam crescer significativamente no futuro.
+
+4. **Service-Based Architecture Style:**
+   - *Bom Requisito Não Funcional:* Evolucionário
+     - *Explicação:* Altamente adaptável a mudanças, permitindo a adição de novos serviços e funcionalidades sem impactar o sistema existente.
+   - *Mau Requisito Não Funcional:* Simplicidade
+     - *Explicação:* Devido à sua natureza distribuída, pode ser mais complexo gerenciar e entender o sistema como um todo.
+
+5. **Event-Driven Architecture Style:**
+   - *Bom Requisito Não Funcional:* Elasticidade
+     - *Explicação:* A capacidade de lidar com eventos de forma dinâmica permite que o sistema se adapte facilmente a diferentes volumes de carga.
+   - *Mau Requisito Não Funcional:* Custo Total
+     - *Explicação:* A simplicidade é sacrificada em troca de alta tolerância a erros e desempenho, o que pode resultar em custos mais elevados.
+
+6. **Microservices Architecture:**
+   - *Bom Requisito Não Funcional:* Escalabilidade
+     - *Explicação:* Projetado para ser altamente escalável, permitindo que diferentes partes do sistema cresçam independentemente.
+   - *Mau Requisito Não Funcional:* Custo Total
+     - *Explicação:* A abordagem de microservices geralmente envolve custos mais elevados devido à gestão e coordenação de serviços distribuídos.
